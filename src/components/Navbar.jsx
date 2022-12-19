@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaBars, FaTimes} from "react-icons/fa";
 import { useState } from "react";
-
+import {Link} from "react-scroll"
 
 const pages = [
     { id: 1, page: "Home" },
@@ -23,7 +23,7 @@ const [ state, setState ] = useState(false);
       <ul className="hidden md:flex">
         { pages.map((item)=> (
             <li key={item.id} className="px-4 cursor-pointer font-medium text-white hover:scale-105 duration-200">
-                {item.page}
+                <Link to={item.page} duration={500} >{item.page}</Link>
                 </li>
         ))}
       </ul> 
@@ -35,7 +35,7 @@ const [ state, setState ] = useState(false);
  <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-sky-200 to to-sky-100 text-gray-900">
  { pages.map((item)=> (
        <li key={item.id} className="px-4 cursor-pointer py-6 text-4xl">
-           {item.page}
+           <Link onClick={()=>setState(!state)} to={item.page} duration={500} >{item.page}</Link>
            </li>
    ))}
   
