@@ -1,15 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.4777abc8.css",
-    "main.js": "/static/js/main.adcfdb5f.js",
+    "main.css": "/static/css/main.01a5c9b9.css",
+    "main.js": "/static/js/main.880afa4a.js",
     "static/media/about.jpg": "/static/media/about.18701fa1e32358a76bff.jpg",
+    "static/media/RodanPlus.png": "/static/media/RodanPlus.ddcebe1d8d90c704f50f.png",
+    "static/media/Fitnesshub.png": "/static/media/Fitnesshub.c34b100c6db6ebe514e6.png",
+    "static/media/Chargebee.png": "/static/media/Chargebee.0e3638c8b84e6fd2cb07.png",
+    "static/media/Crmhub.png": "/static/media/Crmhub.a3698849b3d7a240d54c.png",
+    "static/media/Reactjs.jpeg": "/static/media/Reactjs.1af0a915da250a161d9c.jpeg",
+    "static/media/Redux.jpeg": "/static/media/Redux.a4859b425e3fecb55d40.jpeg",
+    "static/media/JavaScript.jpeg": "/static/media/JavaScript.520c71bb90732ea85fec.jpeg",
+    "static/media/CSS.jpeg": "/static/media/CSS.95ff48243c9cf980f9b1.jpeg",
+    "static/media/telwind.jpeg": "/static/media/telwind.431a1ee0a8454178a164.jpeg",
     "static/media/profile.png": "/static/media/profile.999220bbd8750bbb6de8.png",
+    "static/media/TypeScript.jpeg": "/static/media/TypeScript.3e36beaa272ceb71f834.jpeg",
+    "static/media/Github.jpeg": "/static/media/Github.9c13014c3a7d652b5979.jpeg",
+    "static/media/Html.jpeg": "/static/media/Html.faf941d89cf0c9c79c3d.jpeg",
+    "static/media/Storybook.jpeg": "/static/media/Storybook.285bdf6f5d5c7f6187d7.jpeg",
     "index.html": "/index.html",
-    "main.4777abc8.css.map": "/static/css/main.4777abc8.css.map",
-    "main.adcfdb5f.js.map": "/static/js/main.adcfdb5f.js.map"
+    "main.01a5c9b9.css.map": "/static/css/main.01a5c9b9.css.map",
+    "main.880afa4a.js.map": "/static/js/main.880afa4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4777abc8.css",
-    "static/js/main.adcfdb5f.js"
+    "static/css/main.01a5c9b9.css",
+    "static/js/main.880afa4a.js"
   ]
 }
