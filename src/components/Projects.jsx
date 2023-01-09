@@ -15,17 +15,17 @@ const Projects = () => {
           <p class="text-4xl font-bold inline border-b-4 border-b-black ">
             Projects
           </p>
-          <p class="py-6">These are some beautiful projects that I made</p>
+          {/* <p class="py-6">These are some beautiful projects that I made</p> */}
         </div>
         <div class="grid sm:grid-cols-1 md:grid-cols-1 md:w-3/3 gap-8 px-12 sm:px-0">
           <div class="flex flex-col sm:flex-row max-w-screen-lg">
             <div class="bg-gradient-to-r from-sky-800 to-sky-700 rounded-lg text-white md:w-2/3">
               <div class="flex items-center justify-center">
-                <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button class="w-1/3 px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900 ">
                   {" "}
                   <a href="https://projectfitnesshub.netlify.app/"> Project </a>
                 </button>
-                <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
                   {" "}
                   <a href="https://github.com/srinetanuj/hissing-wrench-7979">
                     {" "}
@@ -62,14 +62,14 @@ const Projects = () => {
           <div class="flex flex-col sm:flex-row max-w-screen-lg">
             <div class="bg-gradient-to-r from-sky-800 to-sky-700 rounded-lg text-white md:w-2/3">
               <div class="flex items-center justify-center">
-                <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 font-bold rounded-md bg-white text-sky-900">
                   {" "}
                   <a href="https://startling-entremet-4a5c73.netlify.app/">
                     {" "}
                     Project
                   </a>
                 </button>
-                <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
                   {" "}
                   <a href="https://github.com/srinetanuj/Hubspot-clone">
                     {" "}
@@ -102,16 +102,16 @@ const Projects = () => {
             </div>
           </div>
           <div class="flex flex-col sm:flex-row max-w-screen-lg">
-            <div class="bg-gradient-to-r from-sky-800 to-sky-700 rounded-lg text-white md:w-2/3">
+            <div class="bg-gradient-to-r from-sky-800 to-sky-700 rounded-lg  text-white md:w-2/3">
               <div class="flex items-center justify-center">
-                <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105  font-bold rounded-md bg-white text-sky-900">
                   {" "}
-                  <a href="https://rodan-fileds-12-masai.netlify.app/index.html">
+                  <a href="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
                     {" "}
                     Project{" "}
                   </a>
                 </button>
-                <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
                   {" "}
                   <a href="https://github.com/ramNgithub/Rodan-Fields.com-Clone">
                     {" "}
@@ -150,14 +150,14 @@ const Projects = () => {
           <div class="flex flex-col sm:flex-row max-w-screen-lg">
             <div class="bg-gradient-to-r from-sky-800 to-sky-700 rounded-lg text-white md:w-2/3">
               <div class="flex items-center justify-center">
-                <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
                   {" "}
                   <a href="https://warm-cranachan-7f8b33.netlify.app/">
                     {" "}
                     Project{" "}
                   </a>
                 </button>
-                <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
                   {" "}
                   <a href="https://github.com/srinetanuj/Chargebee-clone">
                     {" "}
