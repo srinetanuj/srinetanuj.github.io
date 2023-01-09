@@ -9,6 +9,7 @@ const pages = [
     { id: 3, page: "Skills" },
     { id: 4, page: "Project" },
     { id: 5, page: "Contact" },
+    { id: 6, page: "Github" },
   ];
 
 const Navbar = () => {

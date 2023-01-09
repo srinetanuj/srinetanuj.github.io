@@ -7,7 +7,7 @@ const About = () => {
     <div>
       <div
         name="About"
-        className="w-full h-full bg-gradient-to-b  from-sky-100 to to-sky-200
+        className="w-full pt-20 h-screen bg-gradient-to-b  from-sky-100 to to-sky-200
     text-gray-800"
       >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">

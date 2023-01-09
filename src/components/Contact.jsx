@@ -7,7 +7,7 @@ import { IoMdCall } from "react-icons/io";
 const Contact = () => {
   return (
     <div
-      name="contact"
+      name="Contact"
       class="bg-gradient-to-b from-sky-100 to-sky-200 w-full md: h-full"
     >
       <div class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">

@@ -6,7 +6,7 @@ import {MdOutlineKeyboardArrowRight} from "react-icons/md"
 const Home = () => {
   return (
     <div>
-       <div name="Home" className="h-screen w-full bg-gradient-to-b from-sky-100 to to-sky-200">
+       <div name="Home" className="h-screen w-full pb-50 bg-gradient-to-b from-sky-100 to to-sky-200">
          <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-end h-full px-4 md:flex-row">
            <div className="flex flex-col justify-center h-full mt-40 md:mt-0">
            <h2 className="text-4xl sm:text-7xl font-bold text-gray-800">

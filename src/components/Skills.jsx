@@ -101,7 +101,7 @@ const skillsArr=[
 
 const Skills = () => {
   return (
-    <div name="Skills" className="bg-gradient-to-b  from-sky-100 to to-sky-200  text-gray-800 md:h-full">
+    <div name="Skills" className="bg-gradient-to-b pt-20 h-screen from-sky-100 to to-sky-200  text-gray-800 md:h-full">
         <div className="max-w-screen-lg p-4 mx-auto flex-col justify-center w-full h-full">
             <div className='text-center'>
                 <p className="text-4xl font-bold inline border-b-4 border-gray-600">Skills</p>
