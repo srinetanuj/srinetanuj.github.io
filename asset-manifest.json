@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a590bd1b.css",
-    "main.js": "/static/js/main.2871bfe9.js",
+    "main.css": "/static/css/main.eaeabc53.css",
+    "main.js": "/static/js/main.db1eacd2.js",
     "static/media/about.jpg": "/static/media/about.18701fa1e32358a76bff.jpg",
     "static/media/RodanPlus.png": "/static/media/RodanPlus.ddcebe1d8d90c704f50f.png",
     "static/media/Fitnesshub.png": "/static/media/Fitnesshub.c34b100c6db6ebe514e6.png",
@@ -18,11 +18,11 @@
     "static/media/Html.jpeg": "/static/media/Html.faf941d89cf0c9c79c3d.jpeg",
     "static/media/Storybook.jpeg": "/static/media/Storybook.285bdf6f5d5c7f6187d7.jpeg",
     "index.html": "/index.html",
-    "main.a590bd1b.css.map": "/static/css/main.a590bd1b.css.map",
-    "main.2871bfe9.js.map": "/static/js/main.2871bfe9.js.map"
+    "main.eaeabc53.css.map": "/static/css/main.eaeabc53.css.map",
+    "main.db1eacd2.js.map": "/static/js/main.db1eacd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a590bd1b.css",
-    "static/js/main.2871bfe9.js"
+    "static/css/main.eaeabc53.css",
+    "static/js/main.db1eacd2.js"
   ]
 }
