@@ -8,14 +8,14 @@ const Projects = () => {
   return (
     <div
       name="Project"
-      class="bg-gradient-to-b  from-sky-100 to to-sky-200 pt-20 h-screen text-gray-800 md:h-full"
+      class="bg-gradient-to-b  from-sky-100 to to-sky-200  text-gray-800 md: h-full"
     >
       <div class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
-        <div class="pb-8 mt-40 md:mt-0 text-center">
+        <div class="pb-8 mt-20 md:mt-20 text-center">
           <p class="text-4xl font-bold inline border-b-4 border-b-black ">
             Projects
           </p>
-          {/* <p class="py-6">These are some beautiful projects that I made</p> */}
+          <p class="py-6">These are some beautiful projects that I made </p>
         </div>
         <div class="grid sm:grid-cols-1 md:grid-cols-1 md:w-3/3 gap-8 px-12 sm:px-0">
           <div class="flex flex-col sm:flex-row max-w-screen-lg">
@@ -104,9 +104,11 @@ const Projects = () => {
           <div class="flex flex-col sm:flex-row max-w-screen-lg">
             <div class="bg-gradient-to-r from-sky-800 to-sky-700 rounded-lg  text-white md:w-2/3">
               <div class="flex items-center justify-center">
-                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105  font-bold rounded-md bg-white text-sky-900">
+                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 font-bold rounded-md bg-white text-sky-900">
                   {" "}
-                  <a href="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
+                  <a
+                    href="https://rodan-fileds-12-masai.netlify.app/"
+                  >
                     {" "}
                     Project{" "}
                   </a>
@@ -119,7 +121,7 @@ const Projects = () => {
                   </a>
                 </button>
               </div>
-              <a href="https://rodan-fileds-12-masai.netlify.app/index.html">
+              <a href="https://rodan-fileds-12-masai.netlify.app/">
                 {" "}
                 <img
                   src={RodanPlus}
@@ -177,14 +179,15 @@ const Projects = () => {
             <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
               <h1 class="text-4xl font-bold mt-4 md:mt-0 ">Chargebee Clone</h1>
               <h1>
-              Chargebee is the subscription billing and revenue management
+                Chargebee is the subscription billing and revenue management
                 platform that lets you solve for your today, and scale for your
                 tomorrow.
               </h1>
               <br />
               <p class="text-2xl font-bold">Features</p>
               <p class="font-semibold">
-                Home page display, Costomers page display, Partners page display, Login, Signup
+                Home page display, Costomers page display, Partners page
+                display, Login, Signup
               </p>
               <br />
               <p class="text-2xl font-bold">TechStack </p>
@@ -194,7 +197,6 @@ const Projects = () => {
         </div>
       </div>
     </div>
-
   );
 };
 

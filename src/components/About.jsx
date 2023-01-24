@@ -11,14 +11,14 @@ const About = () => {
     text-gray-800"
       >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
-          <div className="pb-8 m-auto mt-50">
+          <div className="pb-8 m-auto mt-0">
             <p className="text-4xl font-bold inline border-b-4 border-gray-600 ">
               About me
             </p>
           </div>
 
           <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-end h-full px-4 md:flex-row">
-            <div className="flex flex-col justify-center h-full mt-40 md:mt-0 ">
+            <div className="flex flex-col justify-center h-full  md:mt-0 ">
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
                 Hi, I'm Anuj
               </h2>

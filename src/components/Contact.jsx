@@ -58,7 +58,7 @@ const Contact = () => {
                   </div>
                 </a>
                 <a href="mailto:srinetkumaranuj@gmail.com">
-                  <div className=" h-10 text-2xl ml-4 text-gray-700">Mail</div>
+                  <div className=" h-10 text-md ml-4 text-gray-700">srinetkumaranuj@gmail.com</div>
                 </a>
               </div>
               <div className="flex flex-row h-10 justify-left mt-4">

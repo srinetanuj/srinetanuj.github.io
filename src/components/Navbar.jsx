@@ -2,6 +2,13 @@ import React from 'react'
 import { FaBars, FaTimes} from "react-icons/fa";
 import { useState } from "react";
 import {Link} from "react-scroll"
+// import {MdOutlineKeyboardArrowRight} from "react-icons/md"
+
+
+const newtab=()=>{
+  window.open("https://drive.google.com/file/d/1emttQkpGyyoFkjh2Etgmwa5T5O6eGxVg/view?usp=sharing")
+}
+  
 
 const pages = [
     { id: 1, page: "Home" },
@@ -9,7 +16,7 @@ const pages = [
     { id: 3, page: "Skills" },
     { id: 4, page: "Project" },
     { id: 5, page: "Contact" },
-    { id: 6, page: "Github" },
+    
   ];
 
 const Navbar = () => {
@@ -27,6 +34,11 @@ const [ state, setState ] = useState(false);
                 <Link to={item.page} duration={500} >{item.page}</Link>
                 </li>
         ))}
+
+      <a href="/Anuj_Singh_Resume.pdf" download={true}>
+        <button onClick={()=>newtab()} className="px-4 cursor-pointer font-medium text-white hover:scale-105 duration-200">Resume</button>      
+        </a>
+        
       </ul> 
       <div onClick={()=> setState(!state)} className="cursor-pointer pr-4 z-10 md:hidden">
         {state ? <FaTimes size={40} className="text-gray-900"/> : <FaBars size={30}/>}
@@ -39,6 +51,10 @@ const [ state, setState ] = useState(false);
            <Link onClick={()=>setState(!state)} to={item.page} duration={500} >{item.page}</Link>
            </li>
    ))}
+
+    <a href="/Anuj_Singh_Resume.pdf" download={true}>
+        <button onClick={()=>newtab()} className="px-4 cursor-pointer py-6 text-4xl">Resume</button>      
+        </a>
   
  </ul>
      )}
