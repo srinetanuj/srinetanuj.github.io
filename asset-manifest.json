@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eaeabc53.css",
-    "main.js": "/static/js/main.0e55d021.js",
+    "main.js": "/static/js/main.7a351f29.js",
     "static/media/about.jpg": "/static/media/about.18701fa1e32358a76bff.jpg",
     "static/media/RodanPlus.png": "/static/media/RodanPlus.ddcebe1d8d90c704f50f.png",
     "static/media/Fitnesshub.png": "/static/media/Fitnesshub.c34b100c6db6ebe514e6.png",
@@ -19,10 +19,10 @@
     "static/media/Storybook.jpeg": "/static/media/Storybook.285bdf6f5d5c7f6187d7.jpeg",
     "index.html": "/index.html",
     "main.eaeabc53.css.map": "/static/css/main.eaeabc53.css.map",
-    "main.0e55d021.js.map": "/static/js/main.0e55d021.js.map"
+    "main.7a351f29.js.map": "/static/js/main.7a351f29.js.map"
   },
   "entrypoints": [
     "static/css/main.eaeabc53.css",
-    "static/js/main.0e55d021.js"
+    "static/js/main.7a351f29.js"
   ]
 }
