@@ -25,9 +25,9 @@ const About = () => {
               <br />
               <p className="text-md sm:text-xl">
                 An Aspiring Full Stack Web Developer, looking forward to
-                utilizing my skills in order to create or rework
+                utilize my skills in order to build optimized 
                 applications, always ready to learn and make use of new skill
-                sets, with a mind set of try and fail again and again till you
+                sets with a mind set of try and fail again and again till you
                 succeed.
               </p>
             </div>

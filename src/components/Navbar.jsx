@@ -24,7 +24,7 @@ const Navbar = () => {
 const [ state, setState ] = useState(false);
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 bg-sky-900 text-white fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 bg-sky-900 text-white fixed z-40">
       <div>
         <h1 className="text-5xl font-logo ml-2">Anuj</h1>
       </div>

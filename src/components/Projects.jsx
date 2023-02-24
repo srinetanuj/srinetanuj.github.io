@@ -5,6 +5,10 @@ import Fitnesshub from "../sources/Fitnesshub.png";
 import RodanPlus from "../sources/RodanPlus.png";
 
 const Projects = () => {
+  const newtab = (url) => {
+    window.open(url);
+  };
+
   return (
     <div
       name="Project"
@@ -21,26 +25,31 @@ const Projects = () => {
           <div class="flex flex-col sm:flex-row max-w-screen-lg">
             <div class="bg-gradient-to-r from-sky-800 to-sky-700 rounded-lg text-white md:w-2/3">
               <div class="flex items-center justify-center">
-                <button class="w-1/3 px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900 ">
+                <button
+                  class="w-1/3 px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900 "
+                  onClick={() =>
+                    newtab("https://projectfitnesshub.netlify.app/")
+                  }
+                >
                   {" "}
-                  <a href="https://projectfitnesshub.netlify.app/"> Project </a>
+                  Project
                 </button>
-                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
+                <button
+                  class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900"
+                  onClick={() =>
+                    newtab("https://github.com/srinetanuj/hissing-wrench-7979")
+                  }
+                >
                   {" "}
-                  <a href="https://github.com/srinetanuj/hissing-wrench-7979">
-                    {" "}
-                    Github{" "}
-                  </a>{" "}
+                  Github{" "}
                 </button>
-              </div>
-              <a href="https://projectfitnesshub.netlify.app/">
-                {" "}
-                <img
-                  src={Fitnesshub}
-                  alt="fitnesshub"
-                  class="rounded-md duration-300 hover:scale-105"
-                />{" "}
-              </a>
+              </div>{" "}
+              <img
+                src={Fitnesshub}
+                alt="fitnesshub"
+                class="rounded-md duration-300 hover:scale-105"
+                onClick={() => newtab("https://projectfitnesshub.netlify.app/")}
+              />{" "}
             </div>
             <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
               <h1 class="text-4xl font-bold mt-4 md:mt-0 ">Fitnesshub</h1>
@@ -62,29 +71,34 @@ const Projects = () => {
           <div class="flex flex-col sm:flex-row max-w-screen-lg">
             <div class="bg-gradient-to-r from-sky-800 to-sky-700 rounded-lg text-white md:w-2/3">
               <div class="flex items-center justify-center">
-                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 font-bold rounded-md bg-white text-sky-900">
+                <button
+                  class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 font-bold rounded-md bg-white text-sky-900"
+                  onClick={() =>
+                    newtab("https://startling-entremet-4a5c73.netlify.app/")
+                  }
+                >
                   {" "}
-                  <a href="https://startling-entremet-4a5c73.netlify.app/">
-                    {" "}
-                    Project
-                  </a>
+                  Project
+                  {/* </a> */}
                 </button>
-                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
+                <button
+                  class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900"
+                  onClick={() =>
+                    newtab("https://github.com/srinetanuj/Hubspot-clone")
+                  }
+                >
                   {" "}
-                  <a href="https://github.com/srinetanuj/Hubspot-clone">
-                    {" "}
-                    Github
-                  </a>
+                  Github
                 </button>
-              </div>
-              <a href="https://startling-entremet-4a5c73.netlify.app/">
-                {" "}
-                <img
-                  src={Crmhub}
-                  alt="crmhub"
-                  class="rounded-md duration-300 hover:scale-105"
-                />
-              </a>
+              </div>{" "}
+              <img
+                src={Crmhub}
+                alt="crmhub"
+                class="rounded-md duration-300 hover:scale-105"
+                onClick={() =>
+                  newtab("https://startling-entremet-4a5c73.netlify.app/")
+                }
+              />
             </div>
             <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
               <h1 class="text-4xl font-bold mt-4 md:mt-0 ">CRMhub</h1>
@@ -104,31 +118,36 @@ const Projects = () => {
           <div class="flex flex-col sm:flex-row max-w-screen-lg">
             <div class="bg-gradient-to-r from-sky-800 to-sky-700 rounded-lg  text-white md:w-2/3">
               <div class="flex items-center justify-center">
-                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 font-bold rounded-md bg-white text-sky-900">
+                <button
+                  class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 font-bold rounded-md bg-white text-sky-900"
+                  onClick={() =>
+                    newtab("https://rodan-fileds-12-masai.netlify.app/")
+                  }
+                >
                   {" "}
-                  <a
-                    href="https://rodan-fileds-12-masai.netlify.app/"
-                  >
-                    {" "}
-                    Project{" "}
-                  </a>
+                  Project{" "}
                 </button>
-                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
+                <button
+                  class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900"
+                  onClick={() =>
+                    newtab(
+                      "https://github.com/ramNgithub/Rodan-Fields.com-Clone"
+                    )
+                  }
+                >
                   {" "}
-                  <a href="https://github.com/ramNgithub/Rodan-Fields.com-Clone">
-                    {" "}
-                    Github
-                  </a>
+                  Github
+                  {/* </a> */}
                 </button>
-              </div>
-              <a href="https://rodan-fileds-12-masai.netlify.app/">
-                {" "}
-                <img
-                  src={RodanPlus}
-                  alt="Lyst"
-                  class="rounded-md duration-300 hover:scale-105"
-                />
-              </a>
+              </div>{" "}
+              <img
+                src={RodanPlus}
+                alt="Lyst"
+                class="rounded-md duration-300 hover:scale-105"
+                onClick={() =>
+                  newtab("https://rodan-fileds-12-masai.netlify.app/")
+                }
+              />
             </div>
             <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
               <h1 class="text-4xl font-bold mt-4 md:mt-0 ">
@@ -152,29 +171,34 @@ const Projects = () => {
           <div class="flex flex-col sm:flex-row max-w-screen-lg">
             <div class="bg-gradient-to-r from-sky-800 to-sky-700 rounded-lg text-white md:w-2/3">
               <div class="flex items-center justify-center">
-                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
+                <button
+                  class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900"
+                  onClick={() =>
+                    newtab("https://warm-cranachan-7f8b33.netlify.app/")
+                  }
+                >
                   {" "}
-                  <a href="https://warm-cranachan-7f8b33.netlify.app/">
-                    {" "}
-                    Project{" "}
-                  </a>
+                  Project{" "}
                 </button>
-                <button class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900">
+                <button
+                  class="w-1/3 b-rounded px-4 py-3 m-4 duration-200 hover:scale-105 rounded-md font-bold bg-white text-sky-900"
+                  onClick={() =>
+                    newtab("https://github.com/srinetanuj/Chargebee-clone")
+                  }
+                >
                   {" "}
-                  <a href="https://github.com/srinetanuj/Chargebee-clone">
-                    {" "}
-                    Github
-                  </a>
+                  Github
+                  {/* </a> */}
                 </button>
-              </div>
-              <a href="https://warm-cranachan-7f8b33.netlify.app/">
-                {" "}
-                <img
-                  src={Chargebee}
-                  alt="Lyst"
-                  class="rounded-md duration-300 hover:scale-105"
-                />
-              </a>
+              </div>{" "}
+              <img
+                src={Chargebee}
+                alt="Lyst"
+                class="rounded-md duration-300 hover:scale-105"
+                onClick={() =>
+                  newtab("https://warm-cranachan-7f8b33.netlify.app/")
+                }
+              />
             </div>
             <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
               <h1 class="text-4xl font-bold mt-4 md:mt-0 ">Chargebee Clone</h1>
